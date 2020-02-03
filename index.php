@@ -42,8 +42,8 @@
             <!-- About
            자기소개 페이지로 연결 -->
             <div class="about_wrap">
-                <h2 onclick="aboutClick()">About</h2>
-                <div class="about_content">
+                <h2 class="about_title" onclick="aboutClick()">About</h2>
+                <div class="about_content" style="display: none;">
                     <?php include "about.php" ?>
                 </div>
             </div>

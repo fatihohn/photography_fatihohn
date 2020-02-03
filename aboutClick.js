@@ -1,7 +1,7 @@
 function aboutClick() {
     const aboutContent = document.querySelector(".about_content");
-    const aboutWrap = document.querySelector(".about_wrap");
-    const displayInit = "initial";
+    const aboutTitle = document.querySelector(".about_title");
+    const displayInit = "grid";
     const displayNone = "none";
 
 
@@ -15,8 +15,8 @@ function aboutClick() {
     }
 
     function init() {
-        aboutContent.style.display = displayInit;
-        aboutWrap.addEventListener("click", handleClick);
+        aboutContent.style.display = displayNone;
+        aboutTitle.addEventListener("click", handleClick);
     }
 
     init();
