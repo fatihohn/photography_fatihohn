@@ -1,3 +1,22 @@
 # photography_fatihohn
 
 developing my personal photographic portfolio webpage
+
+
+pics by @PHOTOHND photography
+
+홈페이지 스타일은 6개 카테고리를 먼저 제시하고 카테고리를 선택하면 추가 사진을 보여주는 방식
+
+                | @PHOTOHND |
+-------------------------------------------------
+Portraits  |    StillObjects    |  Performance
+-------------------------------------------------
+  Events   |  Nature&Landscape  |    Artistic
+-------------------------------------------------
+                  | About |
+-------------------------------------------------
+                 | Contact |
+
+디폴트 : 블러 처리된 대표 이미지 위에 카테고리 이름 표시
+각 카테고리 마우스 호버링 : 대표 이미지 나타남
+각 카테고리 마우스 클릭/터치 : 카테고리 페이지로 이동
